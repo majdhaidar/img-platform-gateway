@@ -10,3 +10,7 @@ spring:
           uri: http://localhost:9090
           predicates:
             - Path=/users/**
+        - id: POST-SERVICE
+          uri: http://localhost:9091
+          predicates:
+            - Path=/posts/**
